@@ -42,7 +42,6 @@
 <p>Local PDF Kit is designed to process your files locally on your device. We collect only the minimum data necessary to operate and improve the service:</p>
 <ul>
   <li><strong>Files you select</strong> — processed locally on your device. We never upload, transmit, or store your file contents on any server.</li>
-  <li><strong>Purchase information</strong> (product ID, order ID, purchase token) — handled by Google Play; we only receive confirmation of whether a purchase is valid.</li>
   <li><strong>Anonymous crash reports</strong> (via Firebase Crashlytics) — device model, OS version, and stack traces, used solely to fix bugs.</li>
   <li><strong>Anonymous usage statistics</strong> (via Google Analytics for Firebase) — aggregated, non-identifying data such as screen views and feature usage, used to improve the app.</li>
 </ul>
@@ -50,8 +49,6 @@
 <h2>2. How We Use Information</h2>
 <ul>
   <li>Provide core PDF processing features (performed entirely on your device).</li>
-  <li>Display ads to free users via Google AdMob.</li>
-  <li>Verify and manage your Pro purchase via Google Play.</li>
   <li>Diagnose and fix crashes via Firebase Crashlytics.</li>
   <li>Understand aggregated feature usage via Firebase Analytics.</li>
 </ul>
@@ -60,44 +57,38 @@
 <h2>3. Permissions We Request</h2>
 <ul>
   <li><strong>Storage (read / write)</strong> — to read PDFs you select and save processed files to your device.</li>
-  <li><strong>Internet</strong> — to load ads (free users) and verify purchase status.</li>
-  <li><strong>Billing</strong> — to process in-app purchases via Google Play.</li>
+  <li><strong>Internet</strong> — to send anonymous crash reports and usage statistics.</li>
 </ul>
 <p>You can revoke these permissions at any time in your device settings; doing so may limit app functionality.</p>
 
-<h2>4. Advertising (Google AdMob)</h2>
-<p>This app uses Google Mobile Ads (AdMob) to display ads to free users. AdMob may use device identifiers (such as the Android advertising ID) to serve ads. You can opt out of personalized ads or reset your advertising ID in your device settings. In regions where required (e.g. EEA/UK), we request your consent via Google's User Messaging Platform before serving ads. See Google's privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
-
-<h2>5. Data Storage and Retention</h2>
+<h2>4. Data Storage and Retention</h2>
 <ul>
   <li><strong>PDF files you process</strong> — stay on your device only. We do not retain copies.</li>
   <li><strong>Output files</strong> — saved to your device's Downloads/PDF_Tool folder and Pictures library.</li>
-  <li><strong>Local app preferences</strong> (purchase status, usage counters, theme) — stored on your device via Android SharedPreferences; removed when you uninstall the app.</li>
+  <li><strong>Local app preferences</strong> (theme, language) — stored on your device via Android SharedPreferences; removed when you uninstall the app.</li>
   <li><strong>Crash logs and analytics</strong> — retained by Google per its retention policies; we do not access raw reports.</li>
 </ul>
 
-<h2>6. Third-Party Services</h2>
+<h2>5. Third-Party Services</h2>
 <ul>
-  <li>Google Mobile Ads (AdMob) — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
-  <li>Google Play Billing / In-App Purchase — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
   <li>Firebase Crashlytics — <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
   <li>Google Analytics for Firebase — <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
   <li>Apache PDFBox (open-source library, no data collection)</li>
 </ul>
 
-<h2>7. Your Rights and Data Deletion</h2>
-<p>You have the right to access, delete, and withdraw consent regarding your data. Uninstalling the app removes all locally stored data (purchase status, usage counters, preferences). For data held by third parties (Google, Firebase), please contact them via the links in section 6, or email us at <a href="mailto:localpdfkit@outlook.com">localpdfkit@outlook.com</a> and we will assist you.</p>
+<h2>6. Your Rights and Data Deletion</h2>
+<p>You have the right to access, delete, and withdraw consent regarding your data. Uninstalling the app removes all locally stored data (preferences). For data held by third parties (Google, Firebase), please contact them via the links in section 5, or email us at <a href="mailto:localpdfkit@outlook.com">localpdfkit@outlook.com</a> and we will assist you.</p>
 
-<h2>8. Children's Privacy</h2>
+<h2>7. Children's Privacy</h2>
 <p>This app is not intended for children under 13 (or the minimum age in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, contact us at <a href="mailto:localpdfkit@outlook.com">localpdfkit@outlook.com</a> and we will delete it promptly.</p>
 
-<h2>9. International Data Transfers</h2>
+<h2>8. International Data Transfers</h2>
 <p>Some of our third-party service providers (Google, Firebase) may process data on servers located outside your country of residence. By using this app, you consent to such transfers. We rely on the standard contractual clauses and privacy frameworks used by our providers to ensure adequate protection.</p>
 
-<h2>10. Changes to This Policy</h2>
+<h2>9. Changes to This Policy</h2>
 <p>We may update this privacy policy from time to time. When we do, we will revise the "Last updated" date at the top of this page. For significant changes, we will notify you through an in-app notice.</p>
 
-<h2>11. Contact Us</h2>
+<h2>10. Contact Us</h2>
 <p>If you have any questions, concerns, or requests regarding this privacy policy or our data practices, contact us at: <a href="mailto:localpdfkit@outlook.com">localpdfkit@outlook.com</a>. We will respond to all legitimate requests within 30 days.</p>
 </section>
 
@@ -112,7 +103,6 @@
 <p>Local PDF Kit 旨在在您的设备本地处理文件。我们仅收集运营和改进服务所必需的最小数据：</p>
 <ul>
   <li><strong>您选择的文件</strong> — 在您的设备本地处理。我们不会上传、传输或将您的文件内容存储到任何服务器。</li>
-  <li><strong>购买信息</strong>（产品 ID、订单 ID、购买 token）— 由 Google Play 处理；我们仅收到购买是否有效的确认。</li>
   <li><strong>匿名崩溃报告</strong>（通过 Firebase Crashlytics）— 包括设备型号、操作系统版本、堆栈跟踪，仅用于修复 bug。</li>
   <li><strong>匿名使用统计</strong>（通过 Firebase Analytics）— 经汇总的非身份识别数据（如页面浏览、功能使用情况），仅用于改进应用。</li>
 </ul>
@@ -120,8 +110,6 @@
 <h2>2. 信息的用途</h2>
 <ul>
   <li>提供 PDF 处理核心功能（完全在您的设备上执行）。</li>
-  <li>通过 Google AdMob 向免费用户展示广告。</li>
-  <li>通过 Google Play 验证和管理您的 Pro 购买。</li>
   <li>通过 Firebase Crashlytics 诊断和修复崩溃。</li>
   <li>通过 Firebase Analytics 了解汇总后的功能使用情况。</li>
 </ul>
@@ -130,44 +118,38 @@
 <h2>3. 我们请求的权限</h2>
 <ul>
   <li><strong>存储权限（读 / 写）</strong> — 用于读取您选择的 PDF 并将处理结果保存到您的设备。</li>
-  <li><strong>网络权限</strong> — 用于加载广告（免费用户）和验证购买状态。</li>
-  <li><strong>计费服务</strong> — 用于通过 Google Play 处理应用内购买。</li>
+  <li><strong>网络权限</strong> — 用于发送匿名崩溃报告和使用统计。</li>
 </ul>
 <p>您可以随时在设备设置中撤销这些权限；撤销后可能会限制应用功能。</p>
 
-<h2>4. 广告（Google AdMob）</h2>
-<p>本应用使用 Google Mobile Ads（AdMob）向免费用户展示广告。AdMob 可能会使用设备标识符（例如 Android 广告 ID）来投放广告。您可以在设备设置中停用个性化广告或重置广告 ID。在法律要求的地区（如欧洲经济区/英国），我们会先通过 Google 用户消息平台（UMP）征得您的同意再展示广告。详见 Google 隐私政策：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
-
-<h2>5. 数据存储与保留</h2>
+<h2>4. 数据存储与保留</h2>
 <ul>
   <li><strong>您处理的 PDF 文件</strong> — 仅保留在您的设备上，我们不保留副本。</li>
   <li><strong>输出文件</strong> — 保存到您设备的 Downloads/PDF_Tool 文件夹和 Pictures 媒体库。</li>
-  <li><strong>本地应用偏好</strong>（购买状态、使用次数、主题）— 使用 Android SharedPreferences 存储在您的设备上，卸载应用时一并删除。</li>
+  <li><strong>本地应用偏好</strong>（主题、语言）— 使用 Android SharedPreferences 存储在您的设备上，卸载应用时一并删除。</li>
   <li><strong>崩溃日志与分析数据</strong> — 按 Google 的保留政策由 Google 保留；我们无法访问原始报告。</li>
 </ul>
 
-<h2>6. 第三方服务</h2>
+<h2>5. 第三方服务</h2>
 <ul>
-  <li>Google Mobile Ads（AdMob）— <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
-  <li>Google Play Billing / 应用内购 — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
   <li>Firebase Crashlytics — <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
   <li>Firebase Analytics — <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
   <li>Apache PDFBox（开源库，不收集数据）</li>
 </ul>
 
-<h2>7. 您的权利与数据删除</h2>
-<p>您有权访问、删除您的数据并随时撤回同意。卸载应用将删除所有本地存储的数据（购买状态、使用次数、偏好设置）。如需删除由第三方（Google、Firebase）持有的数据，请通过第 6 节中的链接直接联系他们，或发送邮件至 <a href="mailto:localpdfkit@outlook.com">localpdfkit@outlook.com</a>，我们将协助您。</p>
+<h2>6. 您的权利与数据删除</h2>
+<p>您有权访问、删除您的数据并随时撤回同意。卸载应用将删除所有本地存储的数据（偏好设置）。如需删除由第三方（Google、Firebase）持有的数据，请通过第 5 节中的链接直接联系他们，或发送邮件至 <a href="mailto:localpdfkit@outlook.com">localpdfkit@outlook.com</a>，我们将协助您。</p>
 
-<h2>8. 儿童隐私</h2>
+<h2>7. 儿童隐私</h2>
 <p>本应用不面向 13 岁以下儿童（或您所在司法管辖区的最低年龄）。我们不会故意收集或请求儿童的个人信息。如果您认为儿童向我们提供了个人数据，请通过 <a href="mailto:localpdfkit@outlook.com">localpdfkit@outlook.com</a> 联系我们，我们将立即删除。</p>
 
-<h2>9. 国际数据传输</h2>
+<h2>8. 国际数据传输</h2>
 <p>我们的一些第三方服务提供商（Google、Firebase）可能在您所在国家/地区之外的服务器上处理数据。使用本应用即表示您同意此类传输。我们依赖于服务提供商使用的标准合同条款和隐私框架以确保充分保护。</p>
 
-<h2>10. 政策更新</h2>
+<h2>9. 政策更新</h2>
 <p>我们可能不时更新本隐私政策。更新时，我们将修改本页顶部的"最后更新"日期。对于重大变更，我们将通过应用内通知告知您。</p>
 
-<h2>11. 联系我们</h2>
+<h2>10. 联系我们</h2>
 <p>如对本隐私政策或我们的数据实践有任何疑问、顾虑或请求，请联系我们：<a href="mailto:localpdfkit@outlook.com">localpdfkit@outlook.com</a>。我们将在 30 天内回复所有合法请求。</p>
 </section>
 
